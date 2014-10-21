@@ -1,0 +1,19 @@
+IRC bot written fully in PHP. It was built with purpose to have a 24/7 bot without having to pay for a server. Free hostings were perfectly capable to run this bot back in the day. :) Today most of free hostings have incorporated time limits that a script can run, and added a line to TOS that forbids bots of any kind.
+
+First version of this bot was written back in 2007-03-02 (thanks to IRC logs). I was 14 then, so sorry for the Lithuanian language everywhere, nobody had taught me coding standards then. :)
+
+Some bot functions were removed before putting it on GitHub. Those functions included fetching and parsing data from several websites. And those websites allow fetching information only with their authors' permission.
+
+
+Mandatory files:
+* bot.php - main file, core, start this to run bot
+* addons.php - actual bot functions
+* conf.php - config file
+
+
+Additional files:
+* api.php - API to interface bot functions found in addons.php through web
+* logs.php - simple bot logs browser
+
+
+If anyone is really interested in this bot, feel free to contact me. I'll help with translation. :)
